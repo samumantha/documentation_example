@@ -1,5 +1,9 @@
 # Documenting code
 
+Materials for workshop on "Best practice guide for software developers and scientists in Extremes DT and Climate DT" in June 2023
+
+Samantha Wittke, CSC - IT center for science
+
 ## Why?
 
 * You will probably use your code in the future and may forget details.
@@ -73,9 +77,9 @@ Good docstrings describe:
 * What goes in (including the type of the input variables)
 * What goes out (including the return type)
 
-:::info
-Good variable/function naming is documentation!
-:::
+
+> Good variable/function naming is documentation!
+
 
 ## README
 
@@ -94,15 +98,26 @@ A minimal README should include:
 
 ## External documentation
 
-**Static site generators** build websites out of plain text files (often `.md` or `.rst`.
+**Static site generators** build websites out of plain text files (often `.md` or `.rst`).
 
 **Docstrings can automatically be integrated into documentation**, no need to write this twice!
 
-Quickstart example: https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-basics
+Tracking of documentation together with the source code
 
-Sphinx + Readthedocs: https://sphinx-rtd-tutorial.readthedocs.io/en/latest/index.html
+[Sphinx Quickstart example](https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-basics)
 
-Github pages
+[Sphinx + Readthedocs](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/index.html)
+
+[Sphinx + GithubPages + Github actions](https://coderefinery.github.io/documentation/gh_workflow/)
+
+
+## Take home messages
+
+I hope you latest now
+* Understand the importance of writing code documentation together with the source code
+* Know what makes a good documentation
+* Know what tools can be used for writing documentation
+* Are able to motivate a balanced decision: sometimes READMEs are absolutely enough
 
 
 ## References and Resources
