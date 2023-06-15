@@ -37,7 +37,7 @@ A checklist, if you want :)
 Describing **why** this piece of code is there, i.e. its **purpose**.
 
 Comments that can be replaced by version control:
-* keeping **zombie code**
+- keeping **zombie code**
 
 ```
 # Do not run this code!:
@@ -106,6 +106,17 @@ A minimal README should include:
 **Static site generators** build websites out of plain text files (often `.md` or `.rst`).
 
 **Docstrings can automatically be integrated into documentation**, no need to write this twice!
+
+
+### Tools
+
+*[Sphinx](http://sphinx-doc.org/), for a quick start
+*[Zola](https://www.getzola.org/), all [CodeRefinery lesson](https://coderefinery.github.io/documentation/) pages are build with that
+*[Jekyll](https://jekyllrb.com/), integrated with Github
+* Many more 
+
+
+### Sphinx
 
 [Sphinx Quickstart example](https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-basics)
 
