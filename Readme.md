@@ -114,7 +114,7 @@ A minimal README should include:
 [Sphinx + GithubPages + Github actions](https://coderefinery.github.io/documentation/gh_workflow/)
 
 
-## Take home messages
+## 🏡 Take home messages
 
 I hope you latest now
 * Understand the importance of writing code documentation together with the source code
@@ -123,6 +123,6 @@ I hope you latest now
 * Are able to motivate a balanced decision: sometimes READMEs are absolutely enough
 
 
-## References and Resources
+## 🐹 References and Resources
 
 This material is based on CodeRefinery Documentation lesson: https://coderefinery.github.io/documentation/ and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
