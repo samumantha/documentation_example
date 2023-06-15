@@ -110,9 +110,9 @@ A minimal README should include:
 
 ### Tools
 
-*[Sphinx](http://sphinx-doc.org/), for a quick start
-*[Zola](https://www.getzola.org/), all [CodeRefinery lesson](https://coderefinery.github.io/documentation/) pages are build with that
-*[Jekyll](https://jekyllrb.com/), integrated with Github
+* [Sphinx](http://sphinx-doc.org/), for a quick start
+* [Zola](https://www.getzola.org/), all [CodeRefinery lesson](https://coderefinery.github.io/documentation/) pages are build with that
+* [Jekyll](https://jekyllrb.com/), integrated with Github
 * Many more 
 
 
