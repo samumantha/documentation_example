@@ -1,11 +1,39 @@
 # Documenting code
 
+## Why?
+
+* You will probably use your code in the future and may forget details.
+* You may want others to use your code (almost impossible without documentation).
+* You may want others to contribute to the code.
+* Shield your limited time and let the documentation answer FAQs.
+
+
+## Common parts
+
+A checklist, if you want :)
+
+* Purpose
+* Authors
+* License
+* Recommended citation
+* Copy-paste-able example to get started
+* Dependencies and their versions or version ranges
+* Installation instructions
+* Tutorials covering key functionality
+* Reference documentation (e.g. API) covering all functionality
+* How do you want to be asked questions (mailing list or forum or chat or issue tracker)
+* Possibly a FAQ section
+* Contribution guide
+
+
 ## In-code
 
-why, purpose
+### Comments
 
-Maybe not, use version control instead:
-* zombie code
+Describing **why** this piece of code is there, i.e. its **purpose**.
+
+Comments that can be replaced by version control:
+* keeping **zombie code**
 
 ```
 # Do not run this code!:
@@ -13,7 +41,7 @@ Maybe not, use version control instead:
 #     print('It is warm')
 ```
 
-* version history 
+* documenting **version**
 
 ```
 # removed on August 5
@@ -21,24 +49,39 @@ Maybe not, use version control instead:
 # Now it connects to the API with o-auth2, updated 05/05/2016
 ```
 
-Docstrings
+### Docstrings
+
+```
+def my_function(argument):
+    """Summary or description of the function
+
+    Parameters:
+    argument (int): Description of argument
+
+    Returns:
+    int: Description of return value
+
+   """
+
+    return argument
+
+print(some_function.__doc__)
+```
 
 Good docstrings describe:
+* What the function does
+* What goes in (including the type of the input variables)
+* What goes out (including the return type)
 
-    What the function does
-
-    What goes in (including the type of the input variables)
-
-    What goes out (including the return type)
-
-
-
-Naming is documentation!
+:::info
+Good variable/function naming is documentation!
+:::
 
 ## README
 
+... usually the first thing someone visiting your repository sees -> First impression!
 
-As a bare minimum a README file should include:
+A minimal README should include:
 
 * A descriptive project title
 * Motivation (why the project exists) and basics
@@ -48,11 +91,12 @@ As a bare minimum a README file should include:
 * Recommended citation if someone uses it
 * Other related tools (“see also”)
 
+
 ## External documentation
 
-static site generators build websites out of plain text files
+**Static site generators** build websites out of plain text files (often `.md` or `.rst`.
 
-docstrings can automatically be integrated into documentation
+**Docstrings can automatically be integrated into documentation**, no need to write this twice!
 
 Quickstart example: https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-basics
 
