@@ -4,7 +4,7 @@ Materials for workshop on "Best practice guide for software developers and scien
 
 Samantha Wittke, CSC - IT center for science
 
-## Why?
+## ❓ Why?
 
 * You will probably use your code in the future and may forget details.
 * You may want others to use your code (almost impossible without documentation).
@@ -12,7 +12,7 @@ Samantha Wittke, CSC - IT center for science
 * Shield your limited time and let the documentation answer FAQs.
 
 
-## Common parts
+## 🗒️ Common parts
 
 A checklist, if you want :)
 
@@ -30,7 +30,7 @@ A checklist, if you want :)
 * Contribution guide
 
 
-## In-code
+## 🧐 In-code
 
 ### Comments
 
@@ -52,6 +52,8 @@ Comments that can be replaced by version control:
 # if() ...
 # Now it connects to the API with o-auth2, updated 05/05/2016
 ```
+
+> ➕ : close to code, ➖: too close to code
 
 ### Docstrings
 
@@ -81,7 +83,7 @@ Good docstrings describe:
 > Good variable/function naming is documentation!
 
 
-## README
+## ❗ README
 
 ... usually the first thing someone visiting your repository sees -> First impression!
 
@@ -95,14 +97,15 @@ A minimal README should include:
 * Recommended citation if someone uses it
 * Other related tools (“see also”)
 
+> often a README is enough!
 
-## External documentation
+## 🤓 External documentation
+
+...When README is not enough...
 
 **Static site generators** build websites out of plain text files (often `.md` or `.rst`).
 
 **Docstrings can automatically be integrated into documentation**, no need to write this twice!
-
-Tracking of documentation together with the source code
 
 [Sphinx Quickstart example](https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-basics)
 
