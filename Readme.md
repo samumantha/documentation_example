@@ -2,7 +2,7 @@
 
 Materials for workshop on "Best practice guide for software developers and scientists in Extremes DT and Climate DT" in June 2023
 
-Samantha Wittke, CSC - IT center for science
+Samantha Wittke, CSC - IT center for science, CodeRefinery
 
 ## ❓ Why?
 
