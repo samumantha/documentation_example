@@ -1,0 +1,9 @@
+cff-version: 1.0
+message: "If you use this example, please cite it as below."
+authors:
+  - family-names: Wittke
+    given-names: Samantha
+    orcid: https://orcid.org/0000-0002-9625-7235
+title: "Software documentation example"
+version: 1.0
+date-released: 2023-06-16
